@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta name="description" content="Best websits to organize my courses"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Personal Course Organizer</title>
+ </head>
+ <body>
+        <header>
+           <h1>Add your Courses</h1>
+        </header>
+        <nav> 
+         <ul>
+            <li><a href="home.html" title="Return to home page">Home</a></li>
+            <li><a href="my_courses.html" title="GO to my courses">My Courses</a></li>
+            <li><a href="add_courses.html" title="Add your courses">Add Courses</a></li>
+            <li><a href="contact_us.html" title="Go to content us" target="_blank">Content Us</a></li>
+         </ul>
+        </nav>
+        <main>
+               <form>
+               <section>   
+                 <label>Course Name</label> 
+                  <input type="text" required name="course name">
+               </section>
+               <section>
+                 <label>Instructor</label> 
+                  <input type="text" required name="instructor">
+               </section>
+               <section>
+                 <label>Credit Hours</label>
+                  <select name="Credit_hour" id="Credit_hour" required>
+                           <option value="1">One hour</option>
+                           <option value="2"> Two hours</option>
+                           <option value="3"> Three hours</option>
+                       </select>
+               </section>
+               <section>
+                 <label>Lecture day</label> 
+              <select name="Lecture_day" id="Lecture_day" required>
+                           <option value="saturday">Saturday</option>
+                           <option value="sunday"> Sunday</option>
+                           <option value="monday">Monday</option>
+                           <option value="tuesday"> Tuesday</option>
+                           <option value="wednesday">Wednesday</option>
+                           <option value="thursday">Thursday</option>
+                           <option value="friday" disabled>Friday</option>
+               </section>
+               <section>
+                 <input type="text" placeholder="Write down your note" name="note">
+               </section>
+              <div class="button">
+                           <button class="b1" type="submit">Save</button>
+                           <button class="b2" type="reset">Empty</button>
+              </div>
+               </form>
+        </main>
+        <hr>
+        <footer>
+         <p> &copy;2026 personal-course-organizer.com. All rights reserved.</p>
+        </footer>
+ </body>
+</html>
